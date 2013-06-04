@@ -7,6 +7,7 @@
  */
 public class StringCalculator {
     public int add(String s) {
+        String list=null;
         int sum=0;
         if(s.isEmpty())
             return 0;  //To change body of created methods use File | Settings | File Templates.
@@ -24,8 +25,9 @@ public class StringCalculator {
         String cur[] = s.split("[,\n]");
         for(int i=0; i<cur.length;i++)
         {
-            if(check(cur[i]))
+            if(check(cur[i])){
                 sum=sum+Integer.parseInt(cur[i]);
+            }
             else
                 return -1;
         }

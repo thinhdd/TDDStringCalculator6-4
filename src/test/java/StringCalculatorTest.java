@@ -1,6 +1,8 @@
 import junit.framework.Assert;
 import org.junit.Test;
 
+import static org.junit.Assert.fail;
+
 /**
  * Created with IntelliJ IDEA.
  * User: RuaTre_IT
