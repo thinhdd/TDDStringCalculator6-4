@@ -43,5 +43,11 @@ public class StringCalculatorTest {
         Assert.assertEquals(sc.add("1,\n3"),-1);
         Assert.assertEquals(sc.add("2\n2"),4);
     }
+    @Test
+    public void testOneDelimiterChoise()
+    {
+        StringCalculator sc = new StringCalculator();
+        Assert.assertEquals(sc.add("//;\n1;2;3"),6);
+    }
 
 }
