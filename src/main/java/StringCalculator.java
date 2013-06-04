@@ -7,11 +7,16 @@
  */
 public class StringCalculator {
     public int add(String s) {
+        int sum=0;
         if(s.isEmpty())
             return 0;  //To change body of created methods use File | Settings | File Templates.
         if(s.length()==1)
             return Integer.parseInt(s);
-        return 0;
-
+        String cur[] = s.split(",");
+        for(int i=0; i<cur.length;i++)
+        {
+            sum=sum+Integer.parseInt(cur[i]);
+        }
+        return sum;
     }
 }

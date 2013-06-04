@@ -22,4 +22,11 @@ public class StringCalculatorTest {
         Assert.assertEquals(sc.add("1"),1);
         Assert.assertEquals(sc.add("2"),2);
     }
+    @Test
+    public void testOneDelimiterDigit()
+    {
+        StringCalculator sc = new StringCalculator();
+        Assert.assertEquals(sc.add("1,2"),3);
+        Assert.assertEquals(sc.add("2,3"),5);
+    }
 }
