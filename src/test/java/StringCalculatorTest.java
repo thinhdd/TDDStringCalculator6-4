@@ -49,5 +49,11 @@ public class StringCalculatorTest {
         StringCalculator sc = new StringCalculator();
         Assert.assertEquals(sc.add("//;\n1;2;3"),6);
     }
+    @Test
+    public void testOneDeliniterDepends()
+    {
+        StringCalculator sc = new StringCalculator();
+        Assert.assertEquals(sc.add("//,\n1,2,3"),6);
+    }
 
 }
