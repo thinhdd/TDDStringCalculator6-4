@@ -36,4 +36,12 @@ public class StringCalculatorTest {
         Assert.assertEquals(sc.add("1,2\n3"),6);
         Assert.assertEquals(sc.add("2\n2"),4);
     }
+    @Test
+    public void testOneTwoDelimiterError()
+    {
+        StringCalculator sc = new StringCalculator();
+        Assert.assertEquals(sc.add("1,\n3"),-1);
+        Assert.assertEquals(sc.add("2\n2"),4);
+    }
+
 }

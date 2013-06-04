@@ -15,8 +15,17 @@ public class StringCalculator {
         String cur[] = s.split("[,\n]");
         for(int i=0; i<cur.length;i++)
         {
-            sum=sum+Integer.parseInt(cur[i]);
+            if(check(cur[i]))
+                sum=sum+Integer.parseInt(cur[i]);
+            else
+                return -1;
         }
         return sum;
+    }
+    public boolean check(String s)
+    {
+        if(s.isEmpty())
+            return false;
+        return true;
     }
 }
