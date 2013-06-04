@@ -14,6 +14,12 @@ public class StringCalculatorTest {
     {
         StringCalculator sc = new StringCalculator();
         Assert.assertEquals(sc.add(""),0);
-
+    }
+    @Test
+    public void testOneDigit()
+    {
+        StringCalculator sc = new StringCalculator();
+        Assert.assertEquals(sc.add("1"),1);
+        Assert.assertEquals(sc.add("2"),2);
     }
 }

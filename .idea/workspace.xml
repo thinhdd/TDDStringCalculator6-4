@@ -5,9 +5,9 @@
     <ignored path="TDDStringCalculator6-4.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ab39e929-2cde-4e94-89f1-17b57bef9a45" time="1370328377612" ignored="false" />
-    <file path="/StringCalculatorTest.java" changelist="ab39e929-2cde-4e94-89f1-17b57bef9a45" time="1370328504694" ignored="false" />
+    <file path="/StringCalculatorTest.java" changelist="ab39e929-2cde-4e94-89f1-17b57bef9a45" time="1370328602184" ignored="false" />
     <file path="/fragment.java" changelist="ab39e929-2cde-4e94-89f1-17b57bef9a45" time="1370328437343" ignored="false" />
-    <file path="/StringCalculator.java" changelist="ab39e929-2cde-4e94-89f1-17b57bef9a45" time="1370328535594" ignored="false" />
+    <file path="/StringCalculator.java" changelist="ab39e929-2cde-4e94-89f1-17b57bef9a45" time="1370328665598" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="StringCalculatorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="42" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+            <state line="22" column="41" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,7 +89,7 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="357" selection-end="357" vertical-scroll-proportion="0.33392859">
+            <state line="14" column="8" selection-start="424" selection-end="424" vertical-scroll-proportion="0.425">
               <folding />
             </state>
           </provider>
@@ -435,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+        <state line="22" column="41" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -444,7 +444,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="357" selection-end="357" vertical-scroll-proportion="0.33392859">
+        <state line="14" column="8" selection-start="424" selection-end="424" vertical-scroll-proportion="0.425">
           <folding />
         </state>
       </provider>
