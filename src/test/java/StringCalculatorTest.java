@@ -29,4 +29,11 @@ public class StringCalculatorTest {
         Assert.assertEquals(sc.add("1,2"),3);
         Assert.assertEquals(sc.add("2,3"),5);
     }
+    @Test
+    public void testOneTwoDelimiter()
+    {
+        StringCalculator sc = new StringCalculator();
+        Assert.assertEquals(sc.add("1,2\n3"),6);
+        Assert.assertEquals(sc.add("2\n2"),4);
+    }
 }

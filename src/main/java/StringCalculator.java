@@ -12,7 +12,7 @@ public class StringCalculator {
             return 0;  //To change body of created methods use File | Settings | File Templates.
         if(s.length()==1)
             return Integer.parseInt(s);
-        String cur[] = s.split(",");
+        String cur[] = s.split("[,\n]");
         for(int i=0; i<cur.length;i++)
         {
             sum=sum+Integer.parseInt(cur[i]);
